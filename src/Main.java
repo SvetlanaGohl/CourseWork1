@@ -8,6 +8,6 @@ public class Main {
         System.out.println("С максимальной зарплатой - " + storage.findMaxSalaryPerson());
         System.out.println("С минимальной зарплатой - " + storage.findMinSalaryPerson());
         System.out.println("Среднее значение по зарплате сотрудников составляет - " + storage.findAverageSalary() + " рублей.");
-//        storage.printFIOEmployee();
+        storage.printFIOEmployee();
     }
 }
